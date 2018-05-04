@@ -25,6 +25,6 @@ public class Test_001 {
 	public void openBrowser()
 	{
 		driver.get("http://store.demoqa.com/");
-        System.out.println("Current page title: "+driver.getTitle());
+        System.out.println("Current page title is: "+driver.getTitle());
 	}
 }
